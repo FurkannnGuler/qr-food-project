@@ -1,0 +1,71 @@
+
+
+.container {
+    max-width: 900px; 
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    font-family: 'Montserrat', sans-serif;
+    color: #495057;
+    display: flex; 
+    align-items: flex-start; 
+    background: linear-gradient(135deg, #D8DAF3, #C8A2C8);
+}
+
+.productName {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #343a40;
+    text-align: left; 
+    flex-basis: 100%; 
+}
+
+.imageContainer {
+    margin-right: 30px; 
+    flex: 1; 
+    max-width: 50%; 
+}
+
+.productImage {
+    max-width: 100%; 
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.detailsContainer {
+    flex: 2;
+    margin-bottom: 20px;
+    
+}
+
+.detailRow {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.detailLabel {
+    font-weight: 600;
+    margin-right: 15px;
+    color: #6c757d;
+    min-width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+.detailValue {
+    color: #495057;
+    margin-left: 15px;
+    line-height: 1.6;
+}
+
+.separator {
+    border-top: 1px solid #dee2e6;
+    margin: 25px 0;
+}
